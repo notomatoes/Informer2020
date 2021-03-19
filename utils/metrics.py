@@ -1,3 +1,5 @@
+# 计算 mae,mse,rmse,mape,mspe
+
 import numpy as np
 
 def RSE(pred, true):
