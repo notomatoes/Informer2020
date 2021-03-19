@@ -1,5 +1,6 @@
 import torch
-
+# 生成mask矩阵
+# 三角 和 prob
 class TriangularCausalMask():
     def __init__(self, B, L, device="cpu"):
         mask_shape = [B, 1, L, L]
